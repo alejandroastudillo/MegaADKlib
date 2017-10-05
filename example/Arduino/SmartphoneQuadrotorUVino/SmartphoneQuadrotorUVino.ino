@@ -1,29 +1,13 @@
-// Arduino sketch for the AndroCopter project.
-// Romain Baud, 2013.
-
-// This code has been tested for the Arduino ADK board only.
-// The ADK library is necessary to compile the sketch. Follow the instructions
-// at http://developer.android.com/tools/adk/index.html
-
 #include <Wire.h>
 #include <Servo.h>
 
 #include <adk.h>
 
-//
-// CAUTION! WARNING! ATTENTION! VORSICHT! ADVARSEL! ¡CUIDADO! ВНИМАНИЕ!
-//
-// Pin 13 is occupied by the SCK pin on various Arduino boards,
-// including Uno, Duemilanove, etc., so use a different pin for those boards.
-//
-// CAUTION! WARNING! ATTENTION! VORSICHT! ADVARSEL! ¡CUIDADO! ВНИМАНИЕ!
-//
 #if defined(LED_BUILTIN)
 #define LED LED_BUILTIN // Use built in LED
 #else
 #define LED 9 // Set to something here that makes sense for your board.
 #endif
-
 
 // Satisfy IDE, which only needs to see the include statment in the ino.
 #ifdef dobogusinclude
