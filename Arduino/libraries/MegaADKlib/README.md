@@ -11,6 +11,6 @@ The code is released under the GNU General Public License.
 
 This library was developed within the Alejandro Astudillo's Master thesis.
 
-#Based on
+# Based On
 
 USB Host Shield Library for AVR's developed by Oleg Mazurov, Alexei Glushchenko, Kristian Lauszus, Andrew Kroll.
